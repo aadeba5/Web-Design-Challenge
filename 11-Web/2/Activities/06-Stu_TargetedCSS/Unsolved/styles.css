@@ -1,0 +1,27 @@
+.first-header {
+    color: green;
+  }
+
+  .purple {
+    color: purple;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .black-background {
+    background-color: black;
+  }
+
+  #forty {
+    font-size: 40px;
+  }
+
+  .boldy {
+    font-weight: lighter;
+  }
+
+  .small-font {
+    font-size: 10px;
+  }

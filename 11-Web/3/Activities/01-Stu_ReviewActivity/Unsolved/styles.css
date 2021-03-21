@@ -1,0 +1,44 @@
+/* Add your styles here */
+body {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.navbar {
+    padding: 10px;
+    background: #5191fd;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.header {
+    background: #cdcdcd;
+    height: 200px;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.post {
+    margin: 50px;
+}
+
+.post h3 {
+    font-size: 30px;
+}

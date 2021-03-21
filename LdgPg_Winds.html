@@ -14,6 +14,9 @@
     text-align: center;
     text-decoration: blanchedalmond;
     background-color:black
+    position: absolute;
+      top: 40%;
+      left: 25%
     }
 
     h2 {
@@ -61,24 +64,72 @@
 
 <body>
 
-  <a href="index_copy2.html"> Humidty against latitude</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Plots</a></li>
+      <li class="breadcrumb-item"><a href="#">Comparison</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+
+  <!-- <a href="index_copy2.html"> Humidty against latitude</a>
   <a href="index_copy2.html"> Clouds against latitude</a>
-  <a href="index_copy2.html"> Winds against latitude</a>
+  <a href="index_copy2.html"> Winds against latitude</a> -->
 
   <div class="container">
-
-<div class="row">
-<div class = "col-md-8">
-  <h1> Web Visualization Dashboard (Latitude)</h1>
-  <br>
-  <h2>Temperature Vs Latitude</h2>
+  <div class="row">
+  <div class = "col-md-8">
+  <h2>Summary: Latitude vs X</h2>
   <img width="400" src="Images/plt1.png">
   <em>Temperature of selected regions versus latitude.</em> 
     <p>
       Temperature appears to decrease with distance from the equator.
       Countries in regions closer to the equator experience higher temperature than those further away</p>
+
+    </div>
+
   
-  
+  <div class="container">
+        <div class="row">
+        <div class = "col-md-4">
   <br>
     <h2>Humidity Vs Latitude</h2>
   <img width="400" src= "Images/plt2.png">
@@ -100,6 +151,8 @@
     <p>
       Wind speed increases as region latitute approaches the equator. This may be due to higher temperature and lighter clouds which give 
     strengthens the wind and reduces the load of clouds the wind has to carry respectively</p>
+
+    </div>
 
     Menu Links
    
