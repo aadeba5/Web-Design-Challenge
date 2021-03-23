@@ -29,7 +29,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="Comparisons.html">Comparisons</a>
+        <a class="nav-link" href="visualizations copy/Temperature.html">Comparisons</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="visualizations/Temperature.html">Temperature</a>
@@ -64,18 +64,18 @@
      
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="visualizations/Temperature.html">
+          <a class="nav-link active" href="./visualizations/Temperature.html">
             
             Weather patterns of different climatic regions versus region's latitude</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="visualizations/Humidity.html"></a>
+          <a class="nav-link" href="./visualizations/Humidity.html"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="visualizations/Clouds.html"></a>
+          <a class="nav-link" href="./visualizations/Clouds.html"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="visualizations/Winds.html"></a>
+          <a class="nav-link" href="./visualizations/Winds.html"></a>
         </li>
       </ul>
       
@@ -114,7 +114,11 @@
 </div>
 
 </div>
-<p>The aim of this project was to analyze weather patterns of world regions as a function of distance from the equator. Data was accessed via Open Weather using assigned API key.
-   Date was retrieved as JSON object, loaded into loaded into Pandas data frame, cleaned and analyzed. Summary of the findings for different weather elements are presented in different section.  </p>
+<p>1.For countries in the Norther Hemisphere, maximum temperature decreases with their latitude according to the equation max_temp = -0.8*lat + 36.39 ; whereas humidity, cloudiness and wind speed  increase with latitude according to hum = 0.22*lat + 65.29, clouds = 0.82*lat + 23.34, and speed = 0.02*lat + 2.7 respectively.
+
+    2. On the other hand, for countries in the Southern hemisphere, maximum temperature, humidity and cloudiness increase with latitude according to equation max_tem = 0.35*lat + 29.79; Hum = 0.68*lat + 92.33 and clouds = 1.08*lat + 78.16 respectively. Wind speed decreases with latitude according to equation speed = -0.1*lat + 2.5
+    
+    3. As expected, humidity, cloudiness and wind speed trend are generally in opposite direction to maximum temperature of the countries in a given latitude in the Northern Hemisphere. The trend is not as clear cut for countries in the Southern Hemisphere: Humidity and clouds pattern appear to generally increase with maximum temperature whereas wind speed decreases with maximum temperature for countries in the Southern Hemisphere.
+    </p>
 </body>
 </html>
